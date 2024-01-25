@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Simon Game Information</title>
+  <link rel="stylesheet" href="Shripriti_3.css">
+</head>
+<body>
+
+  <header>
+    <h1>Simon Game</h1>
+    <p>A memory game where players follow a sequence of colors and sounds.</p>
+  </header>
+
+  <section class="okh">
+    <h2>How it Works</h2>
+    <p>The Simon game is a classic electronic game that tests and improves your memory. The game consists of a circular device with different colored sections. The device plays a sequence of colors and sounds, and the player must then repeat the sequence correctly.</p>
+    <p>Here's a basic overview of how the game works:</p>
+    <ol>
+      <li>The game starts with a single color flashing.</li>
+      <li>After the player successfully repeats the sequence, the game adds another color to the sequence.</li>
+      <li>The player must continue to repeat the growing sequence correctly.</li>
+      <li>The game gets faster and more challenging as the player progresses.</li>
+      <li>The goal is to see how long the player can remember and repeat the sequence.</li>
+    </ol>
+  </section>
+
+  <section class="okhs">
+    <h2>Facts About Simon Game</h2>
+    <ul>
+      <li>The Simon game was invented by Ralph H. Baer and Howard J. Morrison in 1978.</li>
+      <li>It has become a popular and enduring electronic game, with various versions and adaptations over the years.</li>
+      <li>The game is known for its simple yet challenging gameplay, suitable for players of all ages.</li>
+    </ul>
+  </section>
+
+  <section class="jocker">
+  <div id="simon-board">
+    <h3>Let's play...</h3>
+    <div class="tile" id="green" onclick="handleTileClick('green')">Green</div>
+    <div class="tile" id="red" onclick="handleTileClick('red')">Red</div>
+    <div class="tile" id="yellow" onclick="handleTileClick('yellow')">Yellow</div>
+    <div class="tile" id="blue" onclick="handleTileClick('blue')">Blue</div>
+  </div>
+</section>
+<audio id="green-sound" src="C:\Users\tanse\Downloads\green.mp3"></audio>
+  <audio id="red-sound" src="C:\Users\tanse\Downloads\red.mp3"></audio>
+  <audio id="yellow-sound" src="C:\Users\tanse\Downloads\yellow.mp3"></audio>
+  <audio id="blue-sound" src="C:\Users\tanse\Downloads\blue.mp3"></audio>
+
+<script src="Shripriti_3.js"></script>
+</body>
+</html>
